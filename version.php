@@ -17,7 +17,7 @@
 // phpcs:disable moodle.Files.BoilerplateComment.CommentEndedTooSoon
 
 /**
- * Training custom field plugin.
+ * Training credits custom field plugin.
  *
  * @package    customfield_mutrain
  * @copyright  2024 Open LMS (https://www.openlms.net/)
@@ -29,7 +29,7 @@ defined('MOODLE_INTERNAL') || die();
 
 /** @var stdClass $plugin */
 $plugin->component = 'customfield_mutrain';
-$plugin->version = 2025120845;
+$plugin->version = 2025120945;
 $plugin->requires = 2024100700;
 $plugin->maturity = MATURITY_BETA;
 $plugin->supported = [405, 405];
