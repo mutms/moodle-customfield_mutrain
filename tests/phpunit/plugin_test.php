@@ -19,20 +19,21 @@
 namespace customfield_mutrain\phpunit;
 
 use core_customfield_test_instance_form;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Group;
 
 /**
  * Functional test for customfield_mutrain
  *
- * @group      MuTMS
  * @package    customfield_mutrain
  * @copyright  2024 Open LMS (https://www.openlms.net/)
  * @copyright  2025 Petr Skoda
  * @author     Petr Skoda
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- *
- * @covers \customfield_mutrain\data_controller
- * @covers \customfield_mutrain\field_controller
  */
+#[CoversClass(\customfield_mutrain\data_controller::class)]
+#[CoversClass(\customfield_mutrain\field_controller::class)]
+#[Group('MuTMS')]
 final class plugin_test extends \advanced_testcase {
     /**
      * Tests set up.
