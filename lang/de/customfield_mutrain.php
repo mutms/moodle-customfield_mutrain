@@ -31,6 +31,5 @@
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 $string['pluginname'] = 'Weiterbildungspunkte';
 $string['privacy:metadata'] = 'Das nutzerdefinierte Feld Weiterbildungspunkte speichert keine personenbezogenen Daten.';

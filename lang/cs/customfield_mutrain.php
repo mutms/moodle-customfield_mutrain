@@ -24,6 +24,5 @@
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 $string['pluginname'] = 'Kredity za vzdělávání';
 $string['privacy:metadata'] = 'Vlastní pole kreditů za vzdělávání neukládá žádné osobní údaje.';
